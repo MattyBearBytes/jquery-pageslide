@@ -30,7 +30,7 @@ Override the source of the content. Optional in most cases, but required when op
 
 h3. shiftBody
 
-By default this is true as the sidebar will appear over the top of the body. Setting to false will physically shift the body to the left (hiding it) as if it were being pushed by the sidebar.
+By default this is false as the sidebar will appear over the top of the body. Setting to true will physically shift the body to the left (hiding it) as if it were being pushed by the sidebar.
 
 
 h2. Setup
@@ -65,4 +65,4 @@ To close pageslide programatically:
 
 h2. Support
 
-Basic support is offered through Github’s issues tracker. Many requests are resolved through the help of fellow PageSlide users and myself, however assistance is not guaranteed or timely.
+Basic support is offered through Github’s issues tracker. Many requests are resolved through the help of fellow jQuery Sidebar users and myself, however assistance is not guaranteed or timely.
