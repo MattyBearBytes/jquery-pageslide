@@ -1,6 +1,6 @@
-h1. jQuery PageSlide
+h1. jQuery SideBar
 
-PageSlide is a jQuery plugin which slides a webpage over to reveal an additional interaction pane.
+SideBar is a jQuery plugin which slides a webpage over to reveal an additional interaction pane.
 
 h2. Demo
 
@@ -27,6 +27,11 @@ By default, linked pages are loaded into an iframe. Set this to false if you don
 h3. href
 
 Override the source of the content. Optional in most cases, but required when opening pageslide programmatically (e.g. <code>$.pageslide({ href: '#some-element' });</code> ) (default=null)
+
+h3. shiftBody
+
+By default this is true as the sidebar will appear over the top of the body. Setting to false will physically shift the body to the left (hiding it) as if it were being pushed by the sidebar.
+
 
 h2. Setup
 
@@ -57,20 +62,7 @@ To close pageslide programatically:
 </script>
 </code></pre>
 
-h2. Changelog
-
-h3. Version 2.0
-
-* Completely rewritten
-* Externalized CSS
-* Content loaded into an iframe
-
-h3. Version 1.3
-
-* Older versions of PageSlide are located in this repository, however if you would like to contribute to the original plugin's development, please use contributor "Derek Perez's repository":https://github.com/perezd/jquery-pageslide.
 
 h2. Support
 
 Basic support is offered through Github’s issues tracker. Many requests are resolved through the help of fellow PageSlide users and myself, however assistance is not guaranteed or timely.
-
-If you are in need of immediate support, or would like customizations to the script, "Premium Support":https://www.paypal.com/cgi-bin/webscr?business=scott@halobrite.com&cmd=_xclick&currency_code=USD&amount=17&item_name=jQuery%20PageSlide%20Premium%20Support is available for $17. Premium Support provides you with direct email access to me, and allows me to set time aside to help solve your problem quickly.
