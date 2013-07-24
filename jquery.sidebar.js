@@ -1,18 +1,16 @@
 /*
- * jQuery pageSlide
- * Version 2.0
- * http://srobbin.com/jquery-pageslide/
+ * jQuery sideBar
  *
  * jQuery Javascript plugin which slides a webpage over to reveal an additional interaction pane.
  *
- * Copyright (c) 2011 Scott Robbin (srobbin.com)
+ * Originally forked from http://srobbin.com/jquery-pageslide/
  * Dual licensed under the MIT and GPL licenses.
 */
 
 ;(function($){
     // Convenience vars for accessing elements
     var $body = $('body'),
-        $pageslide = $('#pageslide');
+        $pageslide = $('#sidebar');
     
     var _sliding = false,   // Mutex to assist closing only once
         _lastCaller;        // Used to keep track of last element to trigger pageslide
